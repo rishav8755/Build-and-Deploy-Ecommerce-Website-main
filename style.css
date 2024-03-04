@@ -507,7 +507,10 @@ footer .copyright{
 }
 /* start media query*/
 @media (max-width:799px) {
-   #navbar {
+  .section-p1{
+    padding: 40px 40px;
+  }
+    #navbar {
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -533,8 +536,56 @@ margin-bottom: 25px;
     display: flex;
     align-items: center;
     }
+    #close{
+        display: none;
+    }
     #mobile i{
         color: black;
         font-size: 24px;
         padding-left: 20px;
     }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+    #lg-bag{
+        display: none;
+    }
+    #hero {
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+    #feature {
+        justify-content: center;
+    }
+    #feature .fe-box{
+        margin: 15px 15px;
+    }
+    #product1 .pro-container{
+        justify-content:center ;
+    }
+    #product1 .pro{
+        margin: 15px;
+    }
+    #banner {
+        height: 20vh;
+    }
+    #sm-banner .banner-box{
+        min-width: 100%;
+        height: 30px;
+    }
+    #banner3 {
+        padding: 0 40px;
+    }
+    #banner .banner-box{
+    width: 28%;
+    }
+    #newsletter .form{
+        width: 70%;
+    }
+}
