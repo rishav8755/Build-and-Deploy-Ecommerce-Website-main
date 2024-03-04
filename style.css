@@ -567,7 +567,7 @@ margin-bottom: 25px;
         margin: 15px 15px;
     }
     #product1 .pro-container{
-        justify-content:center ;
+        justify-content: center;
     }
     #product1 .pro{
         margin: 15px;
@@ -582,7 +582,7 @@ margin-bottom: 25px;
     #banner3 {
         padding: 0 40px;
     }
-    #banner .banner-box{
+    #banner3 .banner-box{
     width: 28%;
     }
     #newsletter .form{
