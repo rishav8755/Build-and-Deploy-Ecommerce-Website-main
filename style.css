@@ -134,7 +134,10 @@
                 bottom: -4px;
                 left: 20px;
             }
-            
+            #mobile{
+            display: none;
+            align-items: center;
+            }
             .shoping {
                 color: #088178;
                 background-color: black;
@@ -522,3 +525,12 @@ padding: 80px 0 0 10;
 margin-bottom: 25px;
     }
 }
+#mobile{
+    display: flex;
+    align-items: center;
+    }
+    #mobile i{
+        color: black;
+        font-size: 24px;
+        padding-left: 20px;
+    }
