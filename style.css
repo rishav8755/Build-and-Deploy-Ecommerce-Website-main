@@ -479,3 +479,26 @@ footer a{
     color: black;
     margin-bottom: 10px;
 }
+footer .follow {
+margin-top: 20px;
+}
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .install .row img{
+border: 1px solid #088178;
+border-radius: 6px;
+}
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+footer .follow i:hover
+footer a:hover{
+    color: #1ce748;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
