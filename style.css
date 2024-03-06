@@ -233,7 +233,7 @@
     }
     #product1 .pro{
         width: 23px;
-        min-width: 250px;
+        min-width: 200px;
         padding: 10px 12px;
         border: 1px solid #a0d7a8;
         border-radius: 25px;
@@ -250,11 +250,6 @@
     #product1 .pro :hover{
         box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.07);}
         
-
-        #product1 .pro img{
-            width: 100%;
-            border-radius: 20px;
-        }
     #product1 .pro .des{
         text-align: start;
         padding: 10px 0;
@@ -638,5 +633,9 @@ margin-bottom: 25px;
     }
     footer .copyright{
         text-align: start;
+    }
+    /*shop page*/
+    #page-header{
+        background-image: url(img/banner/b1.jpg);
     }
 }
