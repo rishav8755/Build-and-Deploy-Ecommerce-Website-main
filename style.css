@@ -636,6 +636,6 @@ margin-bottom: 25px;
     }
     /*shop page*/
     #page-header{
-        background-image: url(img/banner/b1.jpg);
+        background-image: url("img/banner/b1.jpg");
     }
 }
